@@ -1,37 +1,80 @@
 * {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    background-color: #f5f5db;
-}
-.container {
+    margin: 5px;
     padding: 5px;
 }
 
-#box1 {
-    background-color: #62dede;
-    width: 200px;
-    height: 200px;
-    border: 3px solid #455d20;
+body {
+    background-color: #ECECEC;
+    color: #030117;
+    font-family: Georgia;
+}
+.container { 
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;;
+    grid-template-rows: repeat (12, 20%); 
+    padding: 5px;
 }
 
-#box2 {
-    background-color: #8762de;
+.cabecalho {
+    display: grid;
+    text-align: center;
+}
+
+#box1 {
+    display: grid;
+    grid-column: 1/1;
+    align-items: center;
+    background-color: #ECECEC;
     width: 200px;
     height: 200px;
-    border: 3px solid #455d20;
+    border: 9px solid #030117;
 }
-#box3 {
-    background-color: #bee39e;
+
+#HaterEvil_box {
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 1/1 ;
+    text-align: center;
+    align-items: center;
+    background-color: #48AD36;
     width: 200px;
     height: 200px;
-    border: 3px solid #455d20;
+    border: 9px solid #000000;
 }
-#box4 {
-    background-color: #097171;
+
+#Kira_box {
+    display: grid;
+    grid-column: 3/3;
+    text-align: center;
+    align-items: center;
+    background-color: #C52525;
     width: 200px;
     height: 200px;
-    border: 3px solid #455d20;
+    border: 9px solid #000000;
+    border-radius: 88px;
 }
+#Maybe_box {
+    display: grid;
+    grid-column: 4/4;
+    text-align: center;
+    align-items: center;
+    background-color: #8428B9;
+    width: 200px;
+    height: 200px;
+    border: 9px solid #FCFEE8;
+    border-radius: 20px;
+}
+#Hater_box {
+    display: grid;
+    grid-column: 5/5;
+    text-align: center;
+    align-items: center;
+    background-color: #82DBF9;
+    width: 200px;
+    height: 200px;
+    border: 9px solid #FCFEE8;
+}
+
+img {
+    width: 160px; height: 160px;
+   }
