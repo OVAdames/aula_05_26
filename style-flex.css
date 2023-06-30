@@ -7,7 +7,7 @@ body {
     background-color: #131313;
     color:#FCFEE8;
 }
- 
+
 .cabecalho {
     font-size: 30px;
     display: flex;
@@ -19,6 +19,7 @@ body {
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
+    border:15px dashed #ECECEC;
 }
 
 .Box  {

@@ -19,6 +19,7 @@ body {
 .cabecalho {
     display: grid;
     text-align: center;
+    font-size: 20px;
 }
 
 #box1 {
