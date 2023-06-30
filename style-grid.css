@@ -8,10 +8,10 @@ body {
     color: #030117;
     font-family: Georgia;
 }
-.container { 
+.container {
     display: grid;
-    grid-template-columns: repeat (6, 20%);;
-    grid-template-rows: repeat (5, 20%); 
+    grid-template-columns: repeat (8, 12%);;
+    grid-template-rows: repeat (5, 20%);
     padding: 10px;
     border:15px dotted #000000;
 }
@@ -23,7 +23,6 @@ body {
 
 #box1 {
     display: grid;
-    grid-column: 1/5;
     align-items: center;
     background-color: #ECECEC;
     width: 200px;
@@ -33,6 +32,7 @@ body {
 
 #HaterEvil_box {
     display: grid;
+    grid-column:7/8;
     text-align: center;
     align-items: center;
     background-color: #48AD36;
