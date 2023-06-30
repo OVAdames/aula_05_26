@@ -10,9 +10,10 @@ body {
 }
 .container { 
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;;
-    grid-template-rows: repeat (12, 20%); 
-    padding: 5px;
+    grid-template-columns: repeat (6, 20%);;
+    grid-template-rows: repeat (5, 20%); 
+    padding: 10px;
+    border:15px dotted #000000;
 }
 
 .cabecalho {
@@ -22,7 +23,7 @@ body {
 
 #box1 {
     display: grid;
-    grid-column: 1/1;
+    grid-column: 1/5;
     align-items: center;
     background-color: #ECECEC;
     width: 200px;
@@ -32,8 +33,6 @@ body {
 
 #HaterEvil_box {
     display: grid;
-    grid-column: 2/2;
-    grid-row: 1/1 ;
     text-align: center;
     align-items: center;
     background-color: #48AD36;
@@ -44,7 +43,6 @@ body {
 
 #Kira_box {
     display: grid;
-    grid-column: 3/3;
     text-align: center;
     align-items: center;
     background-color: #C52525;
@@ -55,7 +53,6 @@ body {
 }
 #Maybe_box {
     display: grid;
-    grid-column: 4/4;
     text-align: center;
     align-items: center;
     background-color: #8428B9;
@@ -66,7 +63,6 @@ body {
 }
 #Hater_box {
     display: grid;
-    grid-column: 5/5;
     text-align: center;
     align-items: center;
     background-color: #82DBF9;
